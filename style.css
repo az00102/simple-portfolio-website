@@ -12,11 +12,10 @@ body {
 }
 
 .hire-me {
-  flex-shrink: 0;
   border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
-  padding: 15px 35px 
+  padding: 15px 35px;
 }
 nav {
   display: flex;
@@ -24,13 +23,16 @@ nav {
   align-items: center;
 }
 
+header{
+    background-color: #FFF8F3;
+}
+
 .nav-title {
   color: #181818;
   font-family: Open Sans;
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
+  margin-left: 50px;
 }
 
 nav > ul {
@@ -46,4 +48,24 @@ nav li {
 
 nav a {
   text-decoration: none;
+}
+
+.contact {
+  background-color: white;
+  color: #fd6e0a;
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
