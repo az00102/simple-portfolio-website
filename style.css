@@ -19,10 +19,11 @@ body {
 }
 
 header {
-  background-image: url("images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
 
 nav {
@@ -36,7 +37,7 @@ nav {
   font-family: Open Sans;
   font-size: 45px;
   font-weight: 800;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 nav > ul {
@@ -54,7 +55,7 @@ nav a {
   text-decoration: none;
 }
 
-.contact-button{
+.contact-button {
   background-color: white;
   color: #fd6e0a;
   border-color: #fd6e0a;
@@ -76,7 +77,7 @@ nav a {
   max-width: 500px;
 }
 .banner .profile-pic {
-  width: 460px;
+  width: 550px;
 }
 
 .banner-greeting {
@@ -159,13 +160,13 @@ nav a {
 .section-title {
   margin-bottom: 0px;
 }
-.skill-title{
+.skill-title {
   justify-content: left;
   display: block;
   padding: 20px;
   margin-bottom: 0px;
 }
-.skill-icon{
+.skill-icon {
   justify-content: left;
   display: block;
   margin-top: 20px;
@@ -206,7 +207,6 @@ nav a {
 .My-Education-Container {
   padding-left: 100px;
   margin-right: 71px;
-  
 }
 
 .My-Experiance-Container {
@@ -247,7 +247,6 @@ nav a {
 
 .certificate {
   margin: 0px;
-  
 }
 
 .institute {
@@ -260,9 +259,68 @@ nav a {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  border-bottom:1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
 }
 
-.btn-download-cv{
+.btn-download-cv {
   margin-left: 600px;
+}
+
+.contact-container {
+  background-color: #fff8f3;
+  display: flex;
+  margin-top: 110px;
+}
+
+.lets-connect {
+  /* margin-top: 20px; */
+  margin-left: 50px;
+  padding: 50px;
+}
+.contact-title {
+  text-align: left;
+  white-space: nowrap;
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.contact-schedule {
+  color: #474747;
+  border: none;
+  padding-right: 170px;
+}
+.message-me {
+  /* margin-top: 40px; */
+  padding: 50px;
+}
+
+.message-me input {
+  display: inline-block;
+  margin: 8px 0;
+  border-radius: 5px;
+  border-style: none;
+  padding: 12px 20px;
+  width: 100%;
+  height: 16px;
+}
+
+.message {
+  border-style: none;
+  resize: none;
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 22px;
+}
+
+#submit {
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+  height: 28px;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
 }
